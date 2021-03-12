@@ -104,6 +104,8 @@ body {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-template-rows: none;
+        width: auto;
+        height: 100%;
     }
     .intro hr {
         display: none;
